@@ -38,19 +38,21 @@ const Home = () => {
             <article>
                 <div style={{animationDelay:"0.3s"}}>
                     <AiFillGoogleCircle/>
-                    <p>Google</p>
+                    <a href="https://www.google.com/" target={"blank"}>Google</a>
+
                 </div>
                 <div style={{animationDelay:"0.5s"}}>
                     <AiFillAmazonCircle/>
-                    <p>Amazon</p>
+                    <a href="https://www.amazon.in/" target={"blank"}>Amazon</a>
                 </div>
                 <div style={{animationDelay:"0.7s"}}>
                     <AiFillYoutube/>
-                    <p>Youtube</p>
+                        <a href="https://www.youtube.com/" target={"blank"}>Youtube</a>
+
                 </div>
                 <div style={{animationDelay:"1.0s"}}>
                     <AiFillInstagram/>
-                    <p>Instagram</p>
+                        <a href="https://www.instagram.com/" target={"blank"}>Instagram</a>
                 </div>
             </article>
         </div>
